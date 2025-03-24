@@ -1,0 +1,23 @@
+2024.09.19 07:31:57 INFO  Started: Metals version 1.3.5 in folders 'D:\C#\AppCamera\DXApplication1\FlaskAICore' for client Visual Studio Code 1.93.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@321426fe]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3b42a2a]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@321426fe]
+2024.09.19 07:31:57 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.19 07:31:59 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.09.19 08:05:32 INFO  Shutting down server
+2024.09.19 08:05:32 INFO  shutting down Metals
+2024.09.19 08:05:32 INFO  Exiting server
+2024.09.19 08:33:57 INFO  Started: Metals version 1.3.5 in folders 'D:\C#\AppCamera\DXApplication1\FlaskAICore' for client Visual Studio Code 1.93.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@378b8b7f]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1db5d0b7]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@378b8b7f]
+2024.09.19 08:33:58 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.19 08:33:58 WARN  no build tool detected in workspace 'D:\C#\AppCamera\DXApplication1\FlaskAICore'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.09.19 08:33:59 WARN  Build server is not auto-connectable.
+2024.09.19 10:17:56 INFO  Shutting down server
+2024.09.19 10:17:56 INFO  shutting down Metals
+2024.09.19 10:17:56 INFO  Exiting server
