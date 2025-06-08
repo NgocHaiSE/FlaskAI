@@ -14,18 +14,13 @@ if len(sys.argv) > 1:
     CAMERA_ID = sys.argv[1]
 else:
     print("Không đủ biến truyền vào.")
-    sys.exit()
+    sys.exit()  
 
 # Thiết lập ZeroMQ
 context = zmq.Context()
 socket = context.socket(zmq.PUB)
 port = 8000 + int(CAMERA_ID)
 socket.bind(f"tcp://*:{port}")
-
-# notificatin_port = 9000 + int(CAMERA_ID)
-# winform_context = zmq.Context()
-# winform_socket = winform_context.socket(zmq.PUB)
-# winform_socket.bind(f"tcp://localhost:{notificatin_port}")
 
 #Đọc thông tin camera
 conn = getConnector()

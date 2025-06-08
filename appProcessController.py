@@ -11,7 +11,7 @@ dict_processes = {}
 
 @app.route('/start/<CAMERA_ID>')
 def start(CAMERA_ID):
-    process = subprocess.Popen(['python', 'gait.py',str(CAMERA_ID)])
+    process = subprocess.Popen(['python', 'pub.py',str(CAMERA_ID)])
     dict_processes[CAMERA_ID] = process
     return f"Khởi chạy camera {CAMERA_ID} thành công", 200
 

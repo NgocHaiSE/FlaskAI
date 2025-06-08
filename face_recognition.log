@@ -1,0 +1,311 @@
+2025-05-20 08:46:30,540 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 08:46:30,637 [INFO] package: mysql.connector.plugins
+2025-05-20 08:46:30,637 [INFO] plugin_name: caching_sha2_password
+2025-05-20 08:46:30,638 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 08:46:36,463 [INFO] Using webcam
+2025-05-20 08:46:36,465 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/app/embeddings.pkl: 1 entries
+2025-05-20 08:46:36,473 [ERROR] Failed to initialize face detector or recognizer: OpenCV(4.10.0) C:\b\abs_e4cxka7_7g\croot\opencv-suite_1738943368733\work\modules\dnn\src\onnx\onnx_importer.cpp:277: error: (-5:Bad argument) Can't read ONNX file: ../../weight/face_detection_yunet_2023.onnx in function 'cv::dnn::dnn4_v20240521::ONNXImporter::ONNXImporter'
+
+2025-05-20 08:46:56,538 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 08:46:56,604 [INFO] package: mysql.connector.plugins
+2025-05-20 08:46:56,605 [INFO] plugin_name: caching_sha2_password
+2025-05-20 08:46:56,605 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 08:46:59,543 [INFO] Using webcam
+2025-05-20 08:46:59,544 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/app/embeddings.pkl: 1 entries
+2025-05-20 08:46:59,544 [ERROR] Failed to initialize face detector or recognizer: OpenCV(4.10.0) C:\b\abs_e4cxka7_7g\croot\opencv-suite_1738943368733\work\modules\dnn\src\onnx\onnx_importer.cpp:277: error: (-5:Bad argument) Can't read ONNX file: ../../weights/face_detection_yunet_2023.onnx in function 'cv::dnn::dnn4_v20240521::ONNXImporter::ONNXImporter'
+
+2025-05-20 08:47:28,265 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 08:47:28,330 [INFO] package: mysql.connector.plugins
+2025-05-20 08:47:28,331 [INFO] plugin_name: caching_sha2_password
+2025-05-20 08:47:28,331 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 08:47:31,290 [INFO] Using webcam
+2025-05-20 08:47:31,291 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/app/embeddings.pkl: 1 entries
+2025-05-20 08:47:31,291 [ERROR] Failed to initialize face detector or recognizer: OpenCV(4.10.0) C:\b\abs_e4cxka7_7g\croot\opencv-suite_1738943368733\work\modules\dnn\src\onnx\onnx_importer.cpp:277: error: (-5:Bad argument) Can't read ONNX file: ../weights/face_detection_yunet_2023.onnx in function 'cv::dnn::dnn4_v20240521::ONNXImporter::ONNXImporter'
+
+2025-05-20 08:51:11,729 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 08:51:11,789 [INFO] package: mysql.connector.plugins
+2025-05-20 08:51:11,790 [INFO] plugin_name: caching_sha2_password
+2025-05-20 08:51:11,790 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 08:51:14,864 [INFO] Using webcam
+2025-05-20 08:51:14,864 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/app/embeddings.pkl: 1 entries
+2025-05-20 08:51:15,023 [INFO] Initialized face detector and recognizer models
+2025-05-20 08:51:32,500 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 08:51:32,597 [INFO] package: mysql.connector.plugins
+2025-05-20 08:51:32,598 [INFO] plugin_name: caching_sha2_password
+2025-05-20 08:51:32,598 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 08:51:35,640 [INFO] Using webcam
+2025-05-20 08:51:35,641 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/app/embeddings.pkl: 1 entries
+2025-05-20 08:51:35,770 [INFO] Initialized face detector and recognizer models
+2025-05-20 08:52:10,607 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 08:52:10,672 [INFO] package: mysql.connector.plugins
+2025-05-20 08:52:10,673 [INFO] plugin_name: caching_sha2_password
+2025-05-20 08:52:10,673 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 08:52:13,685 [INFO] Using webcam
+2025-05-20 08:52:13,686 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/app/embeddings.pkl: 1 entries
+2025-05-20 08:52:13,808 [INFO] Initialized face detector and recognizer models
+2025-05-20 09:34:24,825 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 09:34:24,920 [INFO] package: mysql.connector.plugins
+2025-05-20 09:34:24,921 [INFO] plugin_name: caching_sha2_password
+2025-05-20 09:34:24,921 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 09:34:30,607 [INFO] webcam
+2025-05-20 09:34:31,349 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-31.343075_NA.jpg
+2025-05-20 09:34:31,845 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-31.845737_NA.jpg
+2025-05-20 09:34:31,948 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-31.947314_NA.jpg
+2025-05-20 09:34:32,035 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.035305_NA.jpg
+2025-05-20 09:34:32,129 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.129015_NA.jpg
+2025-05-20 09:34:32,227 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.227000_NA.jpg
+2025-05-20 09:34:32,335 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.335098_NA.jpg
+2025-05-20 09:34:32,450 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.449132_NA.jpg
+2025-05-20 09:34:32,535 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.535781_NA.jpg
+2025-05-20 09:34:32,628 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.628499_NA.jpg
+2025-05-20 09:34:32,716 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.716402_NA.jpg
+2025-05-20 09:34:32,800 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.800997_NA.jpg
+2025-05-20 09:34:32,892 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.892251_NA.jpg
+2025-05-20 09:34:32,985 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-32.985108_NA.jpg
+2025-05-20 09:34:33,080 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.080285_NA.jpg
+2025-05-20 09:34:33,167 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.167833_NA.jpg
+2025-05-20 09:34:33,249 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.249218_NA.jpg
+2025-05-20 09:34:33,359 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.359995_NA.jpg
+2025-05-20 09:34:33,456 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.456985_NA.jpg
+2025-05-20 09:34:33,545 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.545001_NA.jpg
+2025-05-20 09:34:33,654 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.654964_NA.jpg
+2025-05-20 09:34:33,749 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.749040_NA.jpg
+2025-05-20 09:34:33,837 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.837437_NA.jpg
+2025-05-20 09:34:33,930 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-33.930493_NA.jpg
+2025-05-20 09:34:34,025 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.025405_NA.jpg
+2025-05-20 09:34:34,130 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.130337_NA.jpg
+2025-05-20 09:34:34,208 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.208282_NA.jpg
+2025-05-20 09:34:34,285 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.284340_NA.jpg
+2025-05-20 09:34:34,368 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.367464_NA.jpg
+2025-05-20 09:34:34,448 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.448451_NA.jpg
+2025-05-20 09:34:34,542 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.542765_NA.jpg
+2025-05-20 09:34:34,625 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.625263_NA.jpg
+2025-05-20 09:34:34,718 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.718964_NA.jpg
+2025-05-20 09:34:34,801 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.801053_NA.jpg
+2025-05-20 09:34:34,886 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.885321_NA.jpg
+2025-05-20 09:34:34,967 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-34.967502_NA.jpg
+2025-05-20 09:34:35,051 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.051205_NA.jpg
+2025-05-20 09:34:35,135 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.135617_NA.jpg
+2025-05-20 09:34:35,220 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.220128_NA.jpg
+2025-05-20 09:34:35,313 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.313116_NA.jpg
+2025-05-20 09:34:35,409 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.408087_NA.jpg
+2025-05-20 09:34:35,498 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.498258_NA.jpg
+2025-05-20 09:34:35,584 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.583037_NA.jpg
+2025-05-20 09:34:35,664 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.664372_NA.jpg
+2025-05-20 09:34:35,745 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.745377_NA.jpg
+2025-05-20 09:34:35,828 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.828452_NA.jpg
+2025-05-20 09:34:35,924 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-35.924722_NA.jpg
+2025-05-20 09:34:36,020 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.020108_NA.jpg
+2025-05-20 09:34:36,108 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.108116_NA.jpg
+2025-05-20 09:34:36,193 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.192819_NA.jpg
+2025-05-20 09:34:36,271 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.271385_NA.jpg
+2025-05-20 09:34:36,346 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.346012_NA.jpg
+2025-05-20 09:34:36,433 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.433014_NA.jpg
+2025-05-20 09:34:36,520 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.520782_NA.jpg
+2025-05-20 09:34:36,597 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.597983_NA.jpg
+2025-05-20 09:34:36,696 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.695131_NA.jpg
+2025-05-20 09:34:36,828 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.827349_NA.jpg
+2025-05-20 09:34:36,942 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-36.941239_NA.jpg
+2025-05-20 09:34:37,049 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.049311_NA.jpg
+2025-05-20 09:34:37,136 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.135368_NA.jpg
+2025-05-20 09:34:37,211 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.211585_NA.jpg
+2025-05-20 09:34:37,296 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.295274_NA.jpg
+2025-05-20 09:34:37,391 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.391121_NA.jpg
+2025-05-20 09:34:37,485 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.485384_NA.jpg
+2025-05-20 09:34:37,576 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.576242_NA.jpg
+2025-05-20 09:34:37,663 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.663943_NA.jpg
+2025-05-20 09:34:37,752 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.752200_NA.jpg
+2025-05-20 09:34:37,829 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.829198_NA.jpg
+2025-05-20 09:34:37,903 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.903238_NA.jpg
+2025-05-20 09:34:37,985 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-37.985395_NA.jpg
+2025-05-20 09:34:38,061 [INFO] Saved NA image to notifications/1_2025-05-20-09-34-38.061214_NA.jpg
+2025-05-20 09:38:36,039 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 09:38:36,116 [INFO] package: mysql.connector.plugins
+2025-05-20 09:38:36,116 [INFO] plugin_name: caching_sha2_password
+2025-05-20 09:38:36,116 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 09:38:39,675 [INFO] webcam
+2025-05-20 09:38:39,677 [INFO] Loaded embeddings from ../embeddings.pkl: 13 entries
+2025-05-20 09:38:39,799 [INFO] Initialized face detector and recognizer models
+2025-05-20 09:38:40,567 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-40.553303_NA.jpg
+2025-05-20 09:38:40,600 [INFO] Reloaded embeddings from embeddings.pkl
+2025-05-20 09:38:40,930 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-40.919145_NA.jpg
+2025-05-20 09:38:40,967 [INFO] Reloaded embeddings from embeddings.pkl
+2025-05-20 09:38:41,302 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-41.249308_NA.jpg
+2025-05-20 09:38:41,503 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-41.492603_NA.jpg
+2025-05-20 09:38:41,624 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-41.613197_NA.jpg
+2025-05-20 09:38:41,742 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-41.731284_NA.jpg
+2025-05-20 09:38:41,851 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-41.841593_NA.jpg
+2025-05-20 09:38:41,984 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-41.973078_NA.jpg
+2025-05-20 09:38:42,114 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-42.103409_NA.jpg
+2025-05-20 09:38:42,236 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-42.226240_NA.jpg
+2025-05-20 09:38:42,354 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-42.346351_NA.jpg
+2025-05-20 09:38:42,481 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-42.470217_NA.jpg
+2025-05-20 09:38:42,632 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-42.621157_NA.jpg
+2025-05-20 09:38:42,779 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-42.769303_NA.jpg
+2025-05-20 09:38:42,892 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-42.881151_NA.jpg
+2025-05-20 09:38:42,998 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-42.987359_NA.jpg
+2025-05-20 09:38:43,105 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.096366_NA.jpg
+2025-05-20 09:38:43,218 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.205071_NA.jpg
+2025-05-20 09:38:43,325 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.316091_NA.jpg
+2025-05-20 09:38:43,439 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.428403_NA.jpg
+2025-05-20 09:38:43,554 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.545147_NA.jpg
+2025-05-20 09:38:43,652 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.641073_NA.jpg
+2025-05-20 09:38:43,749 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.739979_NA.jpg
+2025-05-20 09:38:43,859 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.851460_NA.jpg
+2025-05-20 09:38:43,965 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-43.955156_NA.jpg
+2025-05-20 09:38:44,087 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-44.078247_NA.jpg
+2025-05-20 09:38:44,202 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-44.193175_NA.jpg
+2025-05-20 09:38:44,319 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-44.310366_NA.jpg
+2025-05-20 09:38:44,445 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-44.435371_NA.jpg
+2025-05-20 09:38:44,560 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-44.551104_NA.jpg
+2025-05-20 09:38:44,668 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-44.660447_NA.jpg
+2025-05-20 09:38:44,789 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-44.776248_NA.jpg
+2025-05-20 09:38:44,933 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-44.921081_NA.jpg
+2025-05-20 09:38:45,078 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-45.068109_NA.jpg
+2025-05-20 09:38:45,188 [INFO] Saved NA image to notifications/1_2025-05-20-09-38-45.180399_NA.jpg
+2025-05-20 09:41:31,817 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-20 09:41:31,885 [INFO] package: mysql.connector.plugins
+2025-05-20 09:41:31,886 [INFO] plugin_name: caching_sha2_password
+2025-05-20 09:41:31,886 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-20 09:41:35,656 [INFO] webcam
+2025-05-20 09:41:35,657 [INFO] Loaded embeddings from ../embeddings.pkl: 13 entries
+2025-05-20 09:41:35,822 [INFO] Initialized face detector and recognizer models
+2025-05-20 09:41:36,399 [INFO] Saved NA image to notifications/1_2025-05-20-09-41-36.388127_NA.jpg
+2025-05-20 09:42:06,403 [INFO] Saved NA image to notifications/1_2025-05-20-09-42-06.394363_NA.jpg
+2025-05-20 09:42:36,423 [INFO] Saved NA image to notifications/1_2025-05-20-09-42-36.415456_NA.jpg
+2025-05-21 08:38:57,429 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 08:38:57,501 [INFO] package: mysql.connector.plugins
+2025-05-21 08:38:57,501 [INFO] plugin_name: caching_sha2_password
+2025-05-21 08:38:57,502 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 08:39:03,745 [INFO] webcam
+2025-05-21 08:39:03,747 [INFO] Loaded embeddings from ../embeddings.pkl: 13 entries
+2025-05-21 08:39:03,885 [INFO] Initialized face detector and recognizer models
+2025-05-21 08:39:04,706 [INFO] Saved NA image to notifications/1_2025-05-21-08-39-04.682484_NA.jpg
+2025-05-21 08:45:14,722 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 08:45:14,810 [INFO] package: mysql.connector.plugins
+2025-05-21 08:45:14,810 [INFO] plugin_name: caching_sha2_password
+2025-05-21 08:45:14,810 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 08:45:18,418 [INFO] webcam
+2025-05-21 08:45:18,419 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/embeddings.pkl: 1 entries
+2025-05-21 08:45:18,532 [INFO] Initialized face detector and recognizer models
+2025-05-21 08:45:19,187 [INFO] Saved recognition image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-08-45-19.168627.jpg
+2025-05-21 08:45:35,193 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-08-45-35.180108_NA.jpg
+2025-05-21 08:45:51,145 [INFO] Saved recognition image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-08-45-51.134604.jpg
+2025-05-21 09:09:43,707 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 09:09:43,791 [INFO] package: mysql.connector.plugins
+2025-05-21 09:09:43,791 [INFO] plugin_name: caching_sha2_password
+2025-05-21 09:09:43,791 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 09:09:47,080 [INFO] webcam
+2025-05-21 09:09:47,081 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/embeddings.pkl: 1 entries
+2025-05-21 09:09:47,223 [INFO] Initialized face detector and recognizer models
+2025-05-21 09:09:47,229 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:48,238 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:49,250 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:50,257 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:51,266 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:52,273 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:53,282 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:54,291 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:55,307 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:56,320 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:57,321 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:58,335 [ERROR] Failed to read frame from video capture
+2025-05-21 09:09:59,342 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:00,354 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:01,366 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:02,377 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:03,389 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:04,401 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:05,412 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:06,428 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:07,437 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:08,450 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:09,463 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:10,479 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:11,488 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:12,500 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:13,514 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:14,526 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:15,528 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:16,543 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:17,555 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:18,565 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:19,579 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:20,591 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:21,603 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:22,618 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:23,628 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:24,640 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:25,643 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:26,649 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:27,661 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:28,675 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:29,687 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:30,699 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:31,700 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:32,710 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:33,725 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:34,736 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:35,737 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:36,750 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:37,761 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:38,776 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:39,789 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:40,804 [ERROR] Failed to read frame from video capture
+2025-05-21 09:10:50,224 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 09:10:50,288 [INFO] package: mysql.connector.plugins
+2025-05-21 09:10:50,289 [INFO] plugin_name: caching_sha2_password
+2025-05-21 09:10:50,289 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 09:10:53,352 [INFO] webcam
+2025-05-21 09:10:53,353 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/embeddings.pkl: 1 entries
+2025-05-21 09:10:53,514 [INFO] Initialized face detector and recognizer models
+2025-05-21 09:10:54,186 [INFO] Saved recognition image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-10-54.174891.jpg
+2025-05-21 09:11:14,529 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-11-14.519912_NA.jpg
+2025-05-21 09:11:31,759 [INFO] Saved recognition image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-11-31.750380.jpg
+2025-05-21 09:14:51,107 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 09:14:51,170 [INFO] package: mysql.connector.plugins
+2025-05-21 09:14:51,170 [INFO] plugin_name: caching_sha2_password
+2025-05-21 09:14:51,171 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 09:14:54,349 [INFO] webcam
+2025-05-21 09:14:54,362 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/embeddings.pkl: 2 entries
+2025-05-21 09:14:54,497 [INFO] Initialized face detector and recognizer models
+2025-05-21 09:14:55,230 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-14-55.217192_NA.jpg
+2025-05-21 09:14:55,806 [INFO] Saved recognition image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-14-55.797250.jpg
+2025-05-21 09:15:26,721 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-15-26.712182_NA.jpg
+2025-05-21 09:15:29,175 [INFO] Saved recognition image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-15-29.166476.jpg
+2025-05-21 09:16:29,844 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-16-29.829876_NA.jpg
+2025-05-21 09:18:43,613 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 09:18:43,668 [INFO] package: mysql.connector.plugins
+2025-05-21 09:18:43,669 [INFO] plugin_name: caching_sha2_password
+2025-05-21 09:18:43,669 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 09:18:46,718 [INFO] webcam
+2025-05-21 09:18:46,719 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/embeddings.pkl: 2 entries
+2025-05-21 09:18:46,832 [INFO] Initialized face detector and recognizer models
+2025-05-21 09:18:48,679 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-18-48.673363_NA.jpg
+2025-05-21 09:20:17,420 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-20-17.414584_NA.jpg
+2025-05-21 09:24:32,792 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 09:24:32,882 [INFO] package: mysql.connector.plugins
+2025-05-21 09:24:32,883 [INFO] plugin_name: caching_sha2_password
+2025-05-21 09:24:32,883 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 09:24:35,859 [INFO] webcam
+2025-05-21 09:24:35,860 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/embeddings.pkl: 2 entries
+2025-05-21 09:24:35,973 [INFO] Initialized face detector and recognizer models
+2025-05-21 09:24:36,434 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-09-24-36.426296_NA.jpg
+2025-05-21 14:20:24,668 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 14:20:25,172 [INFO] package: mysql.connector.plugins
+2025-05-21 14:20:25,173 [INFO] plugin_name: caching_sha2_password
+2025-05-21 14:20:25,175 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 14:20:42,640 [INFO] webcam
+2025-05-21 14:20:42,684 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/embeddings.pkl: 2 entries
+2025-05-21 14:20:44,960 [INFO] Initialized face detector and recognizer models
+2025-05-21 14:58:50,605 [INFO] ZeroMQ publisher bound to port 8001
+2025-05-21 14:58:50,721 [INFO] package: mysql.connector.plugins
+2025-05-21 14:58:50,722 [INFO] plugin_name: caching_sha2_password
+2025-05-21 14:58:50,723 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-21 14:58:54,744 [INFO] webcam
+2025-05-21 14:58:54,746 [INFO] Loaded embeddings from D:/ElectronJS/FlaskAICore/embeddings.pkl: 2 entries
+2025-05-21 14:58:54,895 [INFO] Initialized face detector and recognizer models
+2025-05-21 14:58:55,418 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-14-58-55.407822_NA.jpg
+2025-05-21 14:58:57,614 [INFO] Saved recognition image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-14-58-57.606906.jpg
+2025-05-21 15:01:07,628 [INFO] Saved NA image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-15-01-07.613939_NA.jpg
+2025-05-21 15:01:12,597 [INFO] Saved recognition image to D:/ElectronJS/FlaskAICore/data/notifications/1_2025-05-21-15-01-12.588580.jpg

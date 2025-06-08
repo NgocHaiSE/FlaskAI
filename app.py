@@ -1,8 +1,11 @@
 from flask import Flask, request, redirect, url_for, send_from_directory, jsonify
 import os
 from reloadEmbeding import reloadEmbeding
+import cv2
+import numpy as np
+import base64
+import datetime
 from addFace import addFace
-#from face_detect import addFace2
 import subprocess
 from MySQLConnector import getConnector
 from flask_cors import CORS
@@ -20,17 +23,109 @@ NOTI_UPLOAD_FOLDER = 'notifications'
 FACE_UPLOAD_FOLDER = 'faces'
 AVATAR_UPLOAD_FOLDER = 'avatars'
 INFO_UPLOAD_FOLDER = 'info'
+TIMEKEEPING_UPLOAD_FOLDER = 'timekeeping'
 app.config['info'] = INFO_UPLOAD_FOLDER
 app.config['avatars'] = AVATAR_UPLOAD_FOLDER
 app.config['notifications'] = NOTI_UPLOAD_FOLDER
 app.config['faces'] = FACE_UPLOAD_FOLDER
 app.config['temp_faces'] = TEMP_FACE_FOLDER
+app.config['timekeeping'] = TIMEKEEPING_UPLOAD_FOLDER
 
 for folder in [INFO_UPLOAD_FOLDER, FACE_UPLOAD_FOLDER, NOTI_UPLOAD_FOLDER, AVATAR_UPLOAD_FOLDER, TEMP_FACE_FOLDER]:
     if not os.path.exists(folder):
         os.makedirs(folder)
     
 reloadEmbeding()
+
+import sys
+import cv2
+import os
+import numpy as np
+import pickle
+import base64
+import subprocess
+from datetime import datetime
+from flask import request, jsonify
+from MySQLConnector import getConnector
+
+
+
+@app.route('/timekeeping', methods=['POST'])
+def process_face_recognition():
+    try:
+        # Nhận dữ liệu ảnh từ request
+        data = request.json
+        image_base64 = data.get('image')
+
+        if not image_base64:
+            return jsonify({"error": "Không có ảnh được gửi"}), 400
+
+        # Loại bỏ tiền tố base64 nếu có
+        if ',' in image_base64:
+            image_base64 = image_base64.split(',')[1]
+
+        # Giải mã ảnh
+        image_bytes = base64.b64decode(image_base64)
+        nparr = np.frombuffer(image_bytes, np.uint8)
+        image = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+
+        if image is None:
+            return jsonify({"error": "Không thể giải mã ảnh"}), 400
+
+        # Tạo thư mục lưu ảnh nếu chưa tồn tại
+        os.makedirs('timekeeping', exist_ok=True)
+
+        # Tạo tên file duy nhất
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f'timekeeping/capture_{timestamp}.jpg'
+
+        # Lưu ảnh
+        cv2.imwrite(filename, image)
+
+        # Gọi script nhận diện khuôn mặt
+        try:
+            result = subprocess.run(
+                ['python', 'faceRecognise.py', filename], 
+                capture_output=True, 
+                text=True, 
+                timeout=30
+            )
+            
+            # Phân tích kết quả từ subprocess
+            if result.returncode == 0:
+                # Nếu thành công
+                return jsonify({
+                    "status": "success", 
+                    "message": result.stdout.strip(),
+                    "file": filename
+                }), 200
+            else:
+                # Nếu có lỗi
+                return jsonify({
+                    "status": "error", 
+                    "message": result.stderr.strip()
+                }), 500
+
+        except subprocess.TimeoutExpired:
+            return jsonify({
+                "status": "error", 
+                "message": "Quá trình nhận diện mất quá nhiều thời gian"
+            }), 504
+        except Exception as e:
+            return jsonify({
+                "status": "error", 
+                "message": str(e)
+            }), 500
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
+
+# Route để truy cập và hiển thị ảnh thông báo
+@app.route('/timekeeping/<filename>')
+def face_timekeeping(filename):
+    return send_from_directory(app.config['timekeeping'], filename)
+    
     
 # Route để upload ảnh thông báo
 @app.route('/upload-noti', methods=['POST'])
@@ -101,6 +196,7 @@ def get_images(personId):
     finally:
         cursor.close()
         conn.close()
+        
 
 @app.route('/add-images', methods=['POST'])
 def add_images():
@@ -293,7 +389,7 @@ def about():
 #--------------------------------------------------------------
 @app.route('/start/<CAMERA_ID>')
 def start(CAMERA_ID):
-    process = subprocess.Popen(['python', 'gait.py',str(CAMERA_ID)])
+    process = subprocess.Popen(['python', 'pub.py',str(CAMERA_ID)])
     dict_processes[CAMERA_ID] = process
     return f"Khởi dộng camera {CAMERA_ID} thành công", 200
 

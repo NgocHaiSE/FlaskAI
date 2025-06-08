@@ -1,0 +1,512 @@
+2025-05-19 20:43:48,018 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:43:48,071 [WARNING]  * Debugger is active!
+2025-05-19 20:43:48,084 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:44:16,495 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 20:46:28,191 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:46:28,265 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 20:46:28,266 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 20:46:28,269 [INFO]  * Restarting with stat
+2025-05-19 20:46:29,327 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:46:29,366 [WARNING]  * Debugger is active!
+2025-05-19 20:46:29,377 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:46:46,442 [INFO] Processing face for person_id: 69, person_code: 9876543232, path: <FileStorage: 'z6615711753795_f927354475554d78214139a8c95f46e8.jpg' ('image/jpeg')>
+2025-05-19 20:46:46,445 [INFO] 127.0.0.1 - - [19/May/2025 20:46:46] "[35m[1mPOST /api/person/face/upload HTTP/1.1[0m" 500 -
+2025-05-19 20:47:06,937 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 20:47:07,097 [INFO]  * Restarting with stat
+2025-05-19 20:47:08,343 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:47:08,384 [WARNING]  * Debugger is active!
+2025-05-19 20:47:08,395 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:47:28,415 [INFO] Processing face for person_id: 69, person_code: 9876543232, path: <FileStorage: 'z6615711753795_f927354475554d78214139a8c95f46e8.jpg' ('image/jpeg')>
+2025-05-19 20:47:28,424 [INFO] 127.0.0.1 - - [19/May/2025 20:47:28] "[35m[1mPOST /api/person/face/upload HTTP/1.1[0m" 500 -
+2025-05-19 20:48:33,703 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:48:33,794 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 20:48:33,795 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 20:48:33,800 [INFO]  * Restarting with stat
+2025-05-19 20:48:34,837 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:48:34,896 [WARNING]  * Debugger is active!
+2025-05-19 20:48:34,906 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:48:37,922 [INFO] Processing face for person_id: 69, person_code: 9876543232, path: <FileStorage: 'z6615711753795_f927354475554d78214139a8c95f46e8.jpg' ('image/jpeg')>
+2025-05-19 20:48:37,924 [INFO] 127.0.0.1 - - [19/May/2025 20:48:37] "[35m[1mPOST /api/person/face/upload HTTP/1.1[0m" 500 -
+2025-05-19 20:49:07,389 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 20:49:07,547 [INFO]  * Restarting with stat
+2025-05-19 20:49:08,754 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:49:08,789 [WARNING]  * Debugger is active!
+2025-05-19 20:49:08,800 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:49:09,832 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 20:49:09,974 [INFO]  * Restarting with stat
+2025-05-19 20:49:11,099 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:49:11,173 [WARNING]  * Debugger is active!
+2025-05-19 20:49:11,189 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:49:13,699 [INFO] Processing face for person_id: 69, person_code: 9876543232, path: <FileStorage: 'z6615711753795_f927354475554d78214139a8c95f46e8.jpg' ('image/jpeg')>
+2025-05-19 20:49:13,701 [INFO] 127.0.0.1 - - [19/May/2025 20:49:13] "[35m[1mPOST /api/person/face/upload HTTP/1.1[0m" 500 -
+2025-05-19 20:52:47,304 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:52:47,384 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 20:52:47,385 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 20:52:47,389 [INFO]  * Restarting with stat
+2025-05-19 20:52:48,379 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:52:48,421 [WARNING]  * Debugger is active!
+2025-05-19 20:52:48,431 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:52:52,562 [INFO] Processing face for person_id: 69, person_code: 9876543232, filename: z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 20:52:52,564 [INFO] Saving file to temporary path: ../data/temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 20:52:52,565 [ERROR] Error saving temporary file z6615711753795_f927354475554d78214139a8c95f46e8.jpg: [Errno 2] No such file or directory: '../data/temp_faces\\z6615711753795_f927354475554d78214139a8c95f46e8.jpg'
+2025-05-19 20:52:52,567 [INFO] 127.0.0.1 - - [19/May/2025 20:52:52] "[35m[1mPOST /api/person/face/upload HTTP/1.1[0m" 500 -
+2025-05-19 20:55:00,280 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 20:55:00,457 [INFO]  * Restarting with stat
+2025-05-19 20:55:01,566 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:55:01,607 [WARNING]  * Debugger is active!
+2025-05-19 20:55:01,617 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:55:04,676 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 20:55:04,848 [INFO]  * Restarting with stat
+2025-05-19 20:55:05,952 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:55:05,989 [WARNING]  * Debugger is active!
+2025-05-19 20:55:06,000 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:55:09,069 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 20:55:09,222 [INFO]  * Restarting with stat
+2025-05-19 20:55:10,332 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:55:10,368 [WARNING]  * Debugger is active!
+2025-05-19 20:55:10,378 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:55:11,415 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 20:55:11,577 [INFO]  * Restarting with stat
+2025-05-19 20:55:12,431 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:55:12,471 [WARNING]  * Debugger is active!
+2025-05-19 20:55:12,482 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:55:13,521 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 20:55:13,699 [INFO]  * Restarting with stat
+2025-05-19 20:55:14,744 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:55:14,788 [WARNING]  * Debugger is active!
+2025-05-19 20:55:14,799 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:55:16,857 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 20:55:17,063 [INFO]  * Restarting with stat
+2025-05-19 20:55:18,117 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:55:18,152 [WARNING]  * Debugger is active!
+2025-05-19 20:55:18,163 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:55:19,206 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 20:55:19,393 [INFO]  * Restarting with stat
+2025-05-19 20:55:20,322 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:55:20,361 [WARNING]  * Debugger is active!
+2025-05-19 20:55:20,371 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:55:29,507 [INFO] Processing face for person_id: 69, person_code: 9876543232, filename: z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 20:55:29,507 [INFO] Saving file to temporary path: ../data/temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 20:55:29,508 [ERROR] Error saving temporary file z6615711753795_f927354475554d78214139a8c95f46e8.jpg: [Errno 2] No such file or directory: '../data/temp_faces\\z6615711753795_f927354475554d78214139a8c95f46e8.jpg'
+2025-05-19 20:55:29,509 [INFO] 127.0.0.1 - - [19/May/2025 20:55:29] "[35m[1mPOST /api/person/face/upload HTTP/1.1[0m" 500 -
+2025-05-19 20:57:46,460 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 20:57:46,591 [INFO]  * Restarting with stat
+2025-05-19 20:57:47,855 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:57:47,904 [WARNING]  * Debugger is active!
+2025-05-19 20:57:47,921 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:58:07,218 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 20:58:07,386 [INFO]  * Restarting with stat
+2025-05-19 20:58:08,441 [INFO] Initialized face detector and recognizer models
+2025-05-19 20:58:08,481 [WARNING]  * Debugger is active!
+2025-05-19 20:58:08,495 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 20:58:12,155 [INFO] Processing face for person_id: 69, person_code: 9876543232, filename: z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 20:58:12,156 [INFO] Ensured directory exists: ..\data\temp_faces
+2025-05-19 20:58:12,157 [INFO] Saving file to temporary path: ..\data\temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 20:58:12,255 [INFO] Deleted temporary file: ..\data\temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 20:58:12,287 [INFO] Image resized to: (540, 720)
+2025-05-19 20:58:12,291 [INFO] Set input size for face detector: 540x720
+2025-05-19 20:58:12,507 [INFO] Extracted face feature for z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 20:58:12,508 [INFO] Added new embedding for person_id: 69, person_code: 9876543232
+2025-05-19 20:58:12,509 [INFO] Saved embeddings to D:\ElectronJS\FlaskAICore\app\utils\embeddings.pkl for person_id: 69, person_code: 9876543232
+2025-05-19 20:58:12,512 [INFO] 127.0.0.1 - - [19/May/2025 20:58:12] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 21:04:19,685 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 21:04:19,874 [INFO]  * Restarting with stat
+2025-05-19 21:04:21,861 [INFO] Initialized face detector and recognizer models
+2025-05-19 21:04:21,958 [WARNING]  * Debugger is active!
+2025-05-19 21:04:21,976 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 21:04:23,025 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 21:04:23,166 [INFO]  * Restarting with stat
+2025-05-19 21:04:24,356 [INFO] Initialized face detector and recognizer models
+2025-05-19 21:04:24,414 [WARNING]  * Debugger is active!
+2025-05-19 21:04:24,426 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 21:06:27,226 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 21:06:27,400 [INFO]  * Restarting with stat
+2025-05-19 21:07:49,751 [INFO] Initialized face detector and recognizer models
+2025-05-19 21:07:49,808 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 21:07:49,809 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 21:07:49,810 [INFO]  * Restarting with stat
+2025-05-19 21:07:50,730 [INFO] Initialized face detector and recognizer models
+2025-05-19 21:07:50,776 [WARNING]  * Debugger is active!
+2025-05-19 21:07:50,790 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 21:07:53,410 [INFO] Processing face for person_id: 69, person_code: 9876543232, filename: z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:07:53,411 [INFO] Ensured directory exists: ..\data\temp_faces
+2025-05-19 21:07:53,412 [INFO] Saving file to temporary path: ..\data\temp_faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:07:53,478 [INFO] Deleted temporary file: ..\data\temp_faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:07:53,497 [INFO] Image resized to: (540, 720)
+2025-05-19 21:07:53,500 [INFO] Set input size for face detector: 540x720
+2025-05-19 21:07:53,691 [INFO] Extracted face feature for z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:07:53,691 [INFO] Added new embedding for person_id: 69, person_code: 9876543232
+2025-05-19 21:07:53,692 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 69, person_code: 9876543232
+2025-05-19 21:07:53,693 [INFO] 127.0.0.1 - - [19/May/2025 21:07:53] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 21:08:49,469 [INFO] Initialized face detector and recognizer models
+2025-05-19 21:08:49,553 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 21:08:49,554 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 21:08:49,556 [INFO]  * Restarting with stat
+2025-05-19 21:08:50,474 [INFO] Initialized face detector and recognizer models
+2025-05-19 21:08:50,511 [WARNING]  * Debugger is active!
+2025-05-19 21:08:50,521 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 21:09:18,562 [INFO] Processing face for person_id: 69, person_code: 9876543232, filename: z6615694559473_1951e2372465999897714ce9ce58da01.jpg
+2025-05-19 21:09:18,563 [INFO] Ensured directory exists: ..\data\temp_faces
+2025-05-19 21:09:18,563 [INFO] Saving file to temporary path: ..\data\temp_faces\z6615694559473_1951e2372465999897714ce9ce58da01.jpg
+2025-05-19 21:09:18,656 [INFO] Deleted temporary file: ..\data\temp_faces\z6615694559473_1951e2372465999897714ce9ce58da01.jpg
+2025-05-19 21:09:18,673 [INFO] Image resized to: (1080, 720)
+2025-05-19 21:09:18,674 [INFO] Set input size for face detector: 1080x720
+2025-05-19 21:09:18,886 [WARNING] Multiple faces detected in image: z6615694559473_1951e2372465999897714ce9ce58da01.jpg. Only one face is allowed.
+2025-05-19 21:09:18,889 [INFO] 127.0.0.1 - - [19/May/2025 21:09:18] "[35m[1mPOST /api/person/face/upload HTTP/1.1[0m" 500 -
+2025-05-19 21:09:25,978 [INFO] Processing face for person_id: 69, person_code: 9876543232, filename: z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:09:25,979 [INFO] Ensured directory exists: ..\data\temp_faces
+2025-05-19 21:09:25,980 [INFO] Saving file to temporary path: ..\data\temp_faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:09:26,072 [INFO] Deleted temporary file: ..\data\temp_faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:09:26,081 [INFO] Image resized to: (540, 720)
+2025-05-19 21:09:26,083 [INFO] Set input size for face detector: 540x720
+2025-05-19 21:09:26,272 [INFO] Extracted face feature for z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:09:26,291 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 21:09:26,292 [INFO] Saved original face to ../data/faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 21:09:26,293 [INFO] Added new embedding for person_id: 69, person_code: 9876543232
+2025-05-19 21:09:26,295 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 69, person_code: 9876543232
+2025-05-19 21:09:26,296 [INFO] 127.0.0.1 - - [19/May/2025 21:09:26] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:18:41,084 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:18:41,157 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 22:18:41,158 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 22:18:41,160 [INFO]  * Restarting with stat
+2025-05-19 22:18:41,844 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:18:41,869 [WARNING]  * Debugger is active!
+2025-05-19 22:18:41,883 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:18:47,019 [INFO] Processing face for person_id: 74, person_code: 2021012244, filename: z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:18:47,021 [INFO] Ensured directory exists: ..\data\temp_faces
+2025-05-19 22:18:47,022 [INFO] Saving file to temporary path: ..\data\temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:18:47,083 [INFO] Deleted temporary file: ..\data\temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:18:47,103 [INFO] Image resized to: (540, 720)
+2025-05-19 22:18:47,106 [INFO] Set input size for face detector: 540x720
+2025-05-19 22:18:47,306 [INFO] Extracted face feature for z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:18:47,317 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:18:47,318 [INFO] Saved original face to ../data/faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:18:47,318 [INFO] Added new embedding for person_id: 74, person_code: 2021012244
+2025-05-19 22:18:47,319 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 74, person_code: 2021012244
+2025-05-19 22:18:47,321 [INFO] 127.0.0.1 - - [19/May/2025 22:18:47] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:18:47,942 [INFO] 127.0.0.1 - - [19/May/2025 22:18:47] "[36mGET /face/2021012244_z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:18:47,943 [INFO] 127.0.0.1 - - [19/May/2025 22:18:47] "[36mGET /face/2021012244_z6615711753795_f927354475554d78214139a8c95f46e8.jpg HTTP/1.1[0m" 304 -
+2025-05-19 22:19:13,269 [INFO] Processing face for person_id: 73, person_code: ccc1112223, filename: z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:19:13,271 [INFO] Ensured directory exists: ..\data\temp_faces
+2025-05-19 22:19:13,271 [INFO] Saving file to temporary path: ..\data\temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:19:13,327 [INFO] Deleted temporary file: ..\data\temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:19:13,333 [INFO] Image resized to: (540, 720)
+2025-05-19 22:19:13,335 [INFO] Set input size for face detector: 540x720
+2025-05-19 22:19:13,414 [INFO] Extracted face feature for z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:19:13,424 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:19:13,425 [INFO] Saved original face to ../data/faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:19:13,425 [INFO] Added new embedding for person_id: 73, person_code: ccc1112223
+2025-05-19 22:19:13,426 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 73, person_code: ccc1112223
+2025-05-19 22:19:13,427 [INFO] 127.0.0.1 - - [19/May/2025 22:19:13] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:26:28,604 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:26:28,664 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 22:26:28,665 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 22:26:28,667 [INFO]  * Restarting with stat
+2025-05-19 22:26:29,373 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:26:29,405 [WARNING]  * Debugger is active!
+2025-05-19 22:26:29,426 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:26:34,040 [INFO] Processing face for person_id: 73, person_code: ccc1112223, filename: z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 22:26:34,041 [INFO] Ensured directory exists: ..\data\temp_faces
+2025-05-19 22:26:34,042 [INFO] Ensured directory exists: ..\data\faces
+2025-05-19 22:26:34,043 [INFO] Saving file to temporary path: ..\data\temp_faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 22:26:34,123 [INFO] Image resized to: (540, 720)
+2025-05-19 22:26:34,125 [INFO] Set input size for face detector: 540x720
+2025-05-19 22:26:34,305 [INFO] Extracted face feature for z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 22:26:34,318 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:26:34,318 [INFO] Added new embedding for person_id: 73, person_code: ccc1112223
+2025-05-19 22:26:34,320 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 73, person_code: ccc1112223
+2025-05-19 22:26:34,320 [INFO] Saving image to faces directory: ..\data\faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 22:26:34,321 [INFO] Image saved to ..\data\faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 22:26:34,322 [INFO] Deleted temporary file: ..\data\temp_faces\z6615705215242_f51e53622fbc31218aabfa2b9ca28d3c.jpg
+2025-05-19 22:26:34,323 [INFO] 127.0.0.1 - - [19/May/2025 22:26:34] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:28:01,040 [INFO] Processing face for person_id: 73, person_code: ccc1112223, filename: z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:28:01,041 [INFO] Ensured directory exists: ..\data\temp_faces
+2025-05-19 22:28:01,041 [INFO] Ensured directory exists: ..\data\faces
+2025-05-19 22:28:01,041 [INFO] Saving file to temporary path: ..\data\temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:28:01,104 [INFO] Image resized to: (540, 720)
+2025-05-19 22:28:01,105 [INFO] Set input size for face detector: 540x720
+2025-05-19 22:28:01,202 [INFO] Extracted face feature for z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:28:01,215 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:28:01,215 [INFO] Added new embedding for person_id: 73, person_code: ccc1112223
+2025-05-19 22:28:01,217 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 73, person_code: ccc1112223
+2025-05-19 22:28:01,217 [INFO] Saving image to faces directory: ..\data\faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:28:01,218 [INFO] Image saved to ..\data\faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:28:01,219 [INFO] Deleted temporary file: ..\data\temp_faces\z6615711753795_f927354475554d78214139a8c95f46e8.jpg
+2025-05-19 22:28:01,220 [INFO] 127.0.0.1 - - [19/May/2025 22:28:01] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:30:39,715 [INFO] 127.0.0.1 - - [19/May/2025 22:30:39] "[36mGET /avatar/9999999999_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:39,718 [INFO] 127.0.0.1 - - [19/May/2025 22:30:39] "[36mGET /avatar/2021010012_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:39,900 [INFO] 127.0.0.1 - - [19/May/2025 22:30:39] "[36mGET /avatar/MTA0003331_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:39,905 [INFO] 127.0.0.1 - - [19/May/2025 22:30:39] "[36mGET /avatar/MTA2200333_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:39,909 [INFO] 127.0.0.1 - - [19/May/2025 22:30:39] "[36mGET /avatar/MTA0511200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:39,909 [INFO] 127.0.0.1 - - [19/May/2025 22:30:39] "[36mGET /avatar/HNUE201220_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,028 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA2303200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,030 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA1235566_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,215 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA0905330_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,217 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA8833991_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,220 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/1234567MTA_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,224 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/DVDA123456_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,357 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA0803200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,358 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA2004200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,530 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA2604200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,541 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA0106200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:30:40,542 [INFO] 127.0.0.1 - - [19/May/2025 22:30:40] "[36mGET /avatar/MTA1234567_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:32:20,180 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 22:32:20,307 [INFO]  * Restarting with stat
+2025-05-19 22:32:57,513 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:32:57,566 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 22:32:57,566 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 22:32:57,568 [INFO]  * Restarting with stat
+2025-05-19 22:32:58,288 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:32:58,322 [WARNING]  * Debugger is active!
+2025-05-19 22:32:58,334 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:33:03,989 [INFO] 127.0.0.1 - - [19/May/2025 22:33:03] "[36mGET /avatar/MTA2303200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:33:03,989 [INFO] 127.0.0.1 - - [19/May/2025 22:33:03] "[36mGET /avatar/MTA0511200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:33:03,997 [INFO] 127.0.0.1 - - [19/May/2025 22:33:03] "[36mGET /avatar/MTA1235566_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:33:04,009 [INFO] 127.0.0.1 - - [19/May/2025 22:33:04] "[36mGET /avatar/MTA0003331_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:33:04,017 [INFO] 127.0.0.1 - - [19/May/2025 22:33:04] "[36mGET /avatar/HNUE201220_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:33:17,219 [INFO] Processing face for person_id: 38, person_code: MTA1234567, filename: Huy2.jpg
+2025-05-19 22:33:17,221 [INFO] Ensured directory exists: ../data/temp_faces
+2025-05-19 22:33:17,221 [INFO] Ensured directory exists: ../data/faces
+2025-05-19 22:33:17,222 [INFO] Saving file to temporary path: ..\data\temp_faces\Huy2.jpg
+2025-05-19 22:33:17,322 [INFO] Image resized to: (609, 720)
+2025-05-19 22:33:17,324 [INFO] Set input size for face detector: 609x720
+2025-05-19 22:33:17,561 [INFO] Extracted face feature for Huy2.jpg
+2025-05-19 22:33:17,570 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:33:17,570 [INFO] Added new embedding for person_id: 38, person_code: MTA1234567
+2025-05-19 22:33:17,571 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 38, person_code: MTA1234567
+2025-05-19 22:33:17,571 [INFO] Saving image to faces directory: ..\data\faces\Huy2.jpg
+2025-05-19 22:33:17,573 [INFO] Image saved to ..\data\faces\Huy2.jpg
+2025-05-19 22:33:17,574 [INFO] Deleted temporary file: ..\data\temp_faces\Huy2.jpg
+2025-05-19 22:33:17,575 [INFO] 127.0.0.1 - - [19/May/2025 22:33:17] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:37:45,138 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\config.py', reloading
+2025-05-19 22:37:45,259 [INFO]  * Restarting with stat
+2025-05-19 22:37:46,143 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:37:46,182 [WARNING]  * Debugger is active!
+2025-05-19 22:37:46,190 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:37:47,228 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\config.py', reloading
+2025-05-19 22:37:47,332 [INFO]  * Restarting with stat
+2025-05-19 22:37:48,145 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:37:48,177 [WARNING]  * Debugger is active!
+2025-05-19 22:37:48,185 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:37:55,271 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\config.py', reloading
+2025-05-19 22:37:55,361 [INFO]  * Restarting with stat
+2025-05-19 22:37:56,090 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:37:56,118 [WARNING]  * Debugger is active!
+2025-05-19 22:37:56,127 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:38:07,868 [INFO] 127.0.0.1 - - [19/May/2025 22:38:07] "[33mGET /avatar/MTA0003331_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:07,870 [INFO] 127.0.0.1 - - [19/May/2025 22:38:07] "[33mGET /avatar/MTA2303200_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:07,872 [INFO] 127.0.0.1 - - [19/May/2025 22:38:07] "[33mGET /avatar/MTA0511200_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:07,874 [INFO] 127.0.0.1 - - [19/May/2025 22:38:07] "[33mGET /avatar/MTA1235566_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:07,877 [INFO] 127.0.0.1 - - [19/May/2025 22:38:07] "[33mGET /avatar/HNUE201220_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:29,377 [INFO] 127.0.0.1 - - [19/May/2025 22:38:29] "[33mGET /avatar/MTA8833991_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:29,680 [INFO] 127.0.0.1 - - [19/May/2025 22:38:29] "[33mGET /avatar/DVDA123456_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:29,681 [INFO] 127.0.0.1 - - [19/May/2025 22:38:29] "[33mGET /avatar/1234567MTA_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:29,683 [INFO] 127.0.0.1 - - [19/May/2025 22:38:29] "[33mGET /avatar/MTA0905330_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:29,688 [INFO] 127.0.0.1 - - [19/May/2025 22:38:29] "[33mGET /avatar/MTA2200333_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:31,738 [INFO] 127.0.0.1 - - [19/May/2025 22:38:31] "[33mGET /avatar/MTA2303200_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:31,740 [INFO] 127.0.0.1 - - [19/May/2025 22:38:31] "[33mGET /avatar/MTA0511200_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:31,743 [INFO] 127.0.0.1 - - [19/May/2025 22:38:31] "[33mGET /avatar/MTA1235566_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:31,745 [INFO] 127.0.0.1 - - [19/May/2025 22:38:31] "[33mGET /avatar/HNUE201220_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:31,752 [INFO] 127.0.0.1 - - [19/May/2025 22:38:31] "[33mGET /avatar/MTA0003331_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:38:39,075 [INFO] Processing face for person_id: 38, person_code: MTA1234567, filename: Huy2.jpg
+2025-05-19 22:38:39,075 [INFO] Ensured directory exists: data/temp_faces
+2025-05-19 22:38:39,076 [INFO] Ensured directory exists: data/faces
+2025-05-19 22:38:39,076 [INFO] Saving file to temporary path: data\temp_faces\Huy2.jpg
+2025-05-19 22:38:39,148 [INFO] Image resized to: (609, 720)
+2025-05-19 22:38:39,150 [INFO] Set input size for face detector: 609x720
+2025-05-19 22:38:39,355 [INFO] Extracted face feature for Huy2.jpg
+2025-05-19 22:38:39,375 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:38:39,375 [INFO] Added new embedding for person_id: 38, person_code: MTA1234567
+2025-05-19 22:38:39,377 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 38, person_code: MTA1234567
+2025-05-19 22:38:39,378 [INFO] Saving image to faces directory: data\faces\Huy2.jpg
+2025-05-19 22:38:39,380 [INFO] Image saved to data\faces\Huy2.jpg
+2025-05-19 22:38:39,380 [INFO] Deleted temporary file: data\temp_faces\Huy2.jpg
+2025-05-19 22:38:39,382 [INFO] 127.0.0.1 - - [19/May/2025 22:38:39] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:40:30,147 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\static_routes.py', reloading
+2025-05-19 22:40:30,256 [INFO]  * Restarting with stat
+2025-05-19 22:40:31,185 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:40:31,230 [WARNING]  * Debugger is active!
+2025-05-19 22:40:31,240 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:40:35,615 [INFO] 127.0.0.1 - - [19/May/2025 22:40:35] "[33mGET /avatar/MTA2303200_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:40:35,615 [INFO] 127.0.0.1 - - [19/May/2025 22:40:35] "[33mGET /avatar/MTA0511200_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:40:35,616 [INFO] 127.0.0.1 - - [19/May/2025 22:40:35] "[33mGET /avatar/MTA1235566_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:40:35,618 [INFO] 127.0.0.1 - - [19/May/2025 22:40:35] "[33mGET /avatar/HNUE201220_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:40:35,620 [INFO] 127.0.0.1 - - [19/May/2025 22:40:35] "[33mGET /avatar/MTA0003331_avatar.png HTTP/1.1[0m" 404 -
+2025-05-19 22:40:46,458 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\static_routes.py', reloading
+2025-05-19 22:40:46,615 [INFO]  * Restarting with stat
+2025-05-19 22:40:47,379 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:40:47,410 [WARNING]  * Debugger is active!
+2025-05-19 22:40:47,418 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:43:22,504 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\config.py', reloading
+2025-05-19 22:43:22,597 [INFO]  * Restarting with stat
+2025-05-19 22:44:12,449 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:44:12,497 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-05-19 22:44:12,497 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-19 22:44:12,498 [INFO]  * Restarting with stat
+2025-05-19 22:44:13,301 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:44:13,340 [WARNING]  * Debugger is active!
+2025-05-19 22:44:13,354 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:44:17,585 [INFO] 127.0.0.1 - - [19/May/2025 22:44:17] "GET /avatar/1234567MTA_avatar.png HTTP/1.1" 200 -
+2025-05-19 22:44:17,585 [INFO] 127.0.0.1 - - [19/May/2025 22:44:17] "GET /avatar/MTA8833991_avatar.png HTTP/1.1" 200 -
+2025-05-19 22:44:17,585 [INFO] 127.0.0.1 - - [19/May/2025 22:44:17] "GET /avatar/DVDA123456_avatar.png HTTP/1.1" 200 -
+2025-05-19 22:44:17,586 [INFO] 127.0.0.1 - - [19/May/2025 22:44:17] "GET /avatar/MTA0905330_avatar.png HTTP/1.1" 200 -
+2025-05-19 22:44:17,586 [INFO] 127.0.0.1 - - [19/May/2025 22:44:17] "GET /avatar/MTA2200333_avatar.png HTTP/1.1" 200 -
+2025-05-19 22:44:50,077 [INFO] Processing face for person_id: 64, person_code: MTA2200333, filename: z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:44:50,077 [INFO] Ensured directory exists: D:\ElectronJS\FlaskAICore\data\temp_faces
+2025-05-19 22:44:50,078 [INFO] Ensured directory exists: D:\ElectronJS\FlaskAICore\data\faces
+2025-05-19 22:44:50,078 [INFO] Saving file to temporary path: D:\ElectronJS\FlaskAICore\data\temp_faces\z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:44:50,110 [INFO] Image resized to: (1151, 720)
+2025-05-19 22:44:50,111 [INFO] Set input size for face detector: 1151x720
+2025-05-19 22:44:50,381 [INFO] Extracted face feature for z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:44:50,391 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:44:50,391 [INFO] Added new embedding for person_id: 64, person_code: MTA2200333
+2025-05-19 22:44:50,392 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 64, person_code: MTA2200333
+2025-05-19 22:44:50,393 [INFO] Saving image to faces directory: D:\ElectronJS\FlaskAICore\data\faces\z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:44:50,394 [INFO] Image saved to D:\ElectronJS\FlaskAICore\data\faces\z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:44:50,396 [INFO] Deleted temporary file: D:\ElectronJS\FlaskAICore\data\temp_faces\z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:44:50,398 [INFO] 127.0.0.1 - - [19/May/2025 22:44:50] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:53:22,877 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 22:53:23,137 [INFO]  * Restarting with stat
+2025-05-19 22:53:24,160 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:53:24,223 [WARNING]  * Debugger is active!
+2025-05-19 22:53:24,235 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:53:31,343 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 22:53:31,440 [INFO]  * Restarting with stat
+2025-05-19 22:53:32,297 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:53:32,335 [WARNING]  * Debugger is active!
+2025-05-19 22:53:32,343 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:54:18,971 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\person_routes.py', reloading
+2025-05-19 22:54:19,070 [INFO]  * Restarting with stat
+2025-05-19 22:54:19,923 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:54:19,959 [WARNING]  * Debugger is active!
+2025-05-19 22:54:19,967 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:57:03,250 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 22:57:03,383 [INFO]  * Restarting with stat
+2025-05-19 22:57:04,237 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:57:04,274 [WARNING]  * Debugger is active!
+2025-05-19 22:57:04,285 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:57:11,415 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 22:57:11,509 [INFO]  * Restarting with stat
+2025-05-19 22:57:12,422 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:57:12,465 [WARNING]  * Debugger is active!
+2025-05-19 22:57:12,472 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:57:14,530 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\utils\\add_face.py', reloading
+2025-05-19 22:57:14,620 [INFO]  * Restarting with stat
+2025-05-19 22:57:15,427 [INFO] Initialized face detector and recognizer models
+2025-05-19 22:57:15,464 [WARNING]  * Debugger is active!
+2025-05-19 22:57:15,472 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 22:57:23,012 [INFO] Processing face for person_id: 64, person_code: MTA2200333, filename: z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:57:23,014 [INFO] Ensured directory exists: D:\ElectronJS\FlaskAICore\data\temp_faces
+2025-05-19 22:57:23,015 [INFO] Ensured directory exists: D:\ElectronJS\FlaskAICore\data\faces
+2025-05-19 22:57:23,015 [INFO] Saving file to temporary path: D:\ElectronJS\FlaskAICore\data\temp_faces\z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:57:23,049 [INFO] Image resized to: (1151, 720)
+2025-05-19 22:57:23,050 [INFO] Set input size for face detector: 1151x720
+2025-05-19 22:57:23,247 [INFO] Extracted face feature for z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:57:23,261 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:57:23,262 [INFO] Added new embedding for person_id: 64, person_code: MTA2200333
+2025-05-19 22:57:23,263 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 64, person_code: MTA2200333
+2025-05-19 22:57:23,264 [INFO] Saving image to faces directory: D:\ElectronJS\FlaskAICore\data\faces\z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:57:23,266 [INFO] Image saved to D:\ElectronJS\FlaskAICore\data\faces\z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:57:23,393 [INFO] package: mysql.connector.plugins
+2025-05-19 22:57:23,394 [INFO] plugin_name: caching_sha2_password
+2025-05-19 22:57:23,394 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-05-19 22:57:23,409 [INFO] Inserted record into image table: personcode=MTA2200333, link=z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg, personid=64
+2025-05-19 22:57:23,410 [INFO] Deleted temporary file: D:\ElectronJS\FlaskAICore\data\temp_faces\z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg
+2025-05-19 22:57:23,415 [INFO] 127.0.0.1 - - [19/May/2025 22:57:23] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:57:23,881 [INFO] 127.0.0.1 - - [19/May/2025 22:57:23] "GET /face/z6210429247558_6d018cc14cbad11149aef9572b49e6a5.jpg HTTP/1.1" 200 -
+2025-05-19 22:57:43,422 [INFO] Processing face for person_id: 54, person_code: MTA8833991, filename: z6066843537277_ede4d9378a2320ead2a284ee4c56d121.jpg
+2025-05-19 22:57:43,422 [INFO] Ensured directory exists: D:\ElectronJS\FlaskAICore\data\temp_faces
+2025-05-19 22:57:43,423 [INFO] Ensured directory exists: D:\ElectronJS\FlaskAICore\data\faces
+2025-05-19 22:57:43,423 [INFO] Saving file to temporary path: D:\ElectronJS\FlaskAICore\data\temp_faces\z6066843537277_ede4d9378a2320ead2a284ee4c56d121.jpg
+2025-05-19 22:57:43,444 [INFO] Image resized to: (714, 720)
+2025-05-19 22:57:43,445 [INFO] Set input size for face detector: 714x720
+2025-05-19 22:57:43,557 [INFO] Extracted face feature for z6066843537277_ede4d9378a2320ead2a284ee4c56d121.jpg
+2025-05-19 22:57:43,570 [INFO] Loaded existing embeddings from ../embeddings.pkl
+2025-05-19 22:57:43,570 [INFO] Added new embedding for person_id: 54, person_code: MTA8833991
+2025-05-19 22:57:43,571 [INFO] Saved embeddings to ../embeddings.pkl for person_id: 54, person_code: MTA8833991
+2025-05-19 22:57:43,571 [INFO] Saving image to faces directory: D:\ElectronJS\FlaskAICore\data\faces\z6066843537277_ede4d9378a2320ead2a284ee4c56d121.jpg
+2025-05-19 22:57:43,573 [INFO] Image saved to D:\ElectronJS\FlaskAICore\data\faces\z6066843537277_ede4d9378a2320ead2a284ee4c56d121.jpg
+2025-05-19 22:57:43,642 [INFO] Inserted record into image table: personcode=MTA8833991, link=z6066843537277_ede4d9378a2320ead2a284ee4c56d121.jpg, personid=54
+2025-05-19 22:57:43,644 [INFO] Deleted temporary file: D:\ElectronJS\FlaskAICore\data\temp_faces\z6066843537277_ede4d9378a2320ead2a284ee4c56d121.jpg
+2025-05-19 22:57:43,646 [INFO] 127.0.0.1 - - [19/May/2025 22:57:43] "POST /api/person/face/upload HTTP/1.1" 200 -
+2025-05-19 22:57:43,973 [INFO] 127.0.0.1 - - [19/May/2025 22:57:43] "GET /face/z6066843537277_ede4d9378a2320ead2a284ee4c56d121.jpg HTTP/1.1" 200 -
+2025-05-19 22:57:45,856 [INFO] 127.0.0.1 - - [19/May/2025 22:57:45] "[36mGET /avatar/DVDA123456_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:57:46,159 [INFO] 127.0.0.1 - - [19/May/2025 22:57:46] "[36mGET /avatar/1234567MTA_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:57:46,162 [INFO] 127.0.0.1 - - [19/May/2025 22:57:46] "[36mGET /avatar/MTA0905330_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 22:57:46,163 [INFO] 127.0.0.1 - - [19/May/2025 22:57:46] "[36mGET /avatar/MTA2200333_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:08:36,708 [INFO] 127.0.0.1 - - [19/May/2025 23:08:36] "POST /api/person/avatar/upload HTTP/1.1" 200 -
+2025-05-19 23:08:39,575 [INFO] 127.0.0.1 - - [19/May/2025 23:08:39] "GET /avatar/MTA0803200_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:39,575 [INFO] 127.0.0.1 - - [19/May/2025 23:08:39] "GET /avatar/MTA2004200_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:39,577 [INFO] 127.0.0.1 - - [19/May/2025 23:08:39] "GET /avatar/MTA2604200_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:39,580 [INFO] 127.0.0.1 - - [19/May/2025 23:08:39] "GET /avatar/MTA1234567_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:39,580 [INFO] 127.0.0.1 - - [19/May/2025 23:08:39] "GET /avatar/MTA0106200_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:41,326 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "[36mGET /avatar/MTA2200333_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:08:41,327 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "[36mGET /avatar/DVDA123456_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:08:41,331 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "[36mGET /avatar/1234567MTA_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:08:41,334 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "[36mGET /avatar/MTA0905330_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:08:41,342 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "GET /avatar/MTA2303200_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:41,561 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "GET /avatar/2021010012_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:41,636 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "GET /avatar/MTA0511200_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:41,637 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "GET /avatar/MTA1235566_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:41,642 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "GET /avatar/HNUE201220_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:41,645 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "GET /avatar/MTA0003331_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:08:41,790 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "[36mGET /avatar/MTA8833991_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:08:41,885 [INFO] 127.0.0.1 - - [19/May/2025 23:08:41] "GET /avatar/9999999999_avatar.png HTTP/1.1" 200 -
+2025-05-19 23:12:51,273 [INFO] 127.0.0.1 - - [19/May/2025 23:12:51] "POST /api/person/avatar/upload HTTP/1.1" 200 -
+2025-05-19 23:12:54,779 [INFO] 127.0.0.1 - - [19/May/2025 23:12:54] "[36mGET /avatar/MTA2004200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:54,780 [INFO] 127.0.0.1 - - [19/May/2025 23:12:54] "[36mGET /avatar/MTA0803200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:54,780 [INFO] 127.0.0.1 - - [19/May/2025 23:12:54] "[36mGET /avatar/MTA2604200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:54,785 [INFO] 127.0.0.1 - - [19/May/2025 23:12:54] "[36mGET /avatar/MTA0106200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:54,793 [INFO] 127.0.0.1 - - [19/May/2025 23:12:54] "[36mGET /avatar/MTA1234567_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:55,979 [INFO] 127.0.0.1 - - [19/May/2025 23:12:55] "[36mGET /avatar/DVDA123456_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:55,981 [INFO] 127.0.0.1 - - [19/May/2025 23:12:55] "[36mGET /avatar/1234567MTA_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:55,985 [INFO] 127.0.0.1 - - [19/May/2025 23:12:55] "[36mGET /avatar/MTA2200333_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,000 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/MTA2303200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,006 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/MTA0905330_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,117 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/2021010012_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,291 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/MTA0511200_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,303 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/MTA1235566_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,312 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/HNUE201220_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,341 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/MTA0003331_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,350 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/MTA8833991_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:12:56,427 [INFO] 127.0.0.1 - - [19/May/2025 23:12:56] "[36mGET /avatar/9999999999_avatar.png HTTP/1.1[0m" 304 -
+2025-05-19 23:20:09,254 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\services\\person_services.py', reloading
+2025-05-19 23:20:09,570 [INFO]  * Restarting with stat
+2025-05-19 23:20:10,559 [INFO] Initialized face detector and recognizer models
+2025-05-19 23:20:10,597 [WARNING]  * Debugger is active!
+2025-05-19 23:20:10,609 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 23:20:20,784 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\services\\person_services.py', reloading
+2025-05-19 23:20:20,875 [INFO]  * Restarting with stat
+2025-05-19 23:20:21,686 [INFO] Initialized face detector and recognizer models
+2025-05-19 23:20:21,720 [WARNING]  * Debugger is active!
+2025-05-19 23:20:21,728 [INFO]  * Debugger PIN: 117-129-247
+2025-05-19 23:20:54,254 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\services\\person_services.py', reloading
+2025-05-19 23:20:54,355 [INFO]  * Restarting with stat
+2025-05-19 23:20:55,036 [INFO] Initialized face detector and recognizer models

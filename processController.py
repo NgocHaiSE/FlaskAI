@@ -4,7 +4,7 @@ from MySQLConnector import getConnector
 dict_processes = {}
 
 def start(CAMERA_ID):
-    process = subprocess.Popen(['python', 'gait.py',str(CAMERA_ID)])
+    process = subprocess.Popen(['python', 'pub.py',str(CAMERA_ID)])
     dict_processes[CAMERA_ID] = process
     
 def check(CAMERA_ID):
