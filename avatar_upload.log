@@ -4643,3 +4643,4 @@
 2025-06-09 00:08:10,046 [INFO] Initialized face detector and recognizer models
 2025-06-09 00:08:10,136 [WARNING]  * Debugger is active!
 2025-06-09 00:08:10,157 [INFO]  * Debugger PIN: 117-129-247
+2025-06-09 00:22:47,523 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\routes\\user_routes.py', reloading
