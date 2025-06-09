@@ -9,7 +9,7 @@ from functools import wraps
 user_bp = Blueprint('user', __name__)
 
 # Secret key cho JWT (nên đặt trong config hoặc env)
-JWT_SECRET = 'your-secret-key-change-this'
+JWT_SECRET = 'mta-jwt'
 JWT_ALGORITHM = 'HS256'
 
 def generate_password_hash(password):

@@ -6,7 +6,7 @@ import jwt
 import mysql.connector
 from app.config import Config
 
-JWT_SECRET = 'your-secret-key-change-this'  # Nên đặt trong config
+JWT_SECRET = 'mta-jwt'  # Nên đặt trong config
 JWT_ALGORITHM = 'HS256'
 
 def verify_token(token):
@@ -236,8 +236,8 @@ def init_auth_middleware(app):
     """Khởi tạo auth middleware cho app"""
     @app.before_request
     def load_user():
-        # Chỉ load user cho các API routes
-        if request.endpoint and request.endpoint.startswith('api'):
+        # Chỉ load user cho các API routes (check URL path instead of endpoint)
+        if request.path.startswith('/api/'):
             auth_header = request.headers.get('Authorization')
             
             if auth_header and auth_header.startswith('Bearer '):

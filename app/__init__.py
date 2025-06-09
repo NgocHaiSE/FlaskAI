@@ -8,10 +8,14 @@ from .routes.role_routes import role_bp
 from .routes.permission_routes import permission_bp
 from .middleware.auth import init_auth_middleware
 from flask_cors import CORS
+from flask_jwt_extended import JWTManager
 
 def create_app():
     app = Flask(__name__)
     app.config.from_object('app.config.Config')
+    app.config['JWT_SECRET_KEY'] = 'mtalaksdjad220'
+    jwt = JWTManager(app) 
+    
     
     # CORS configuration
     CORS(app, resources={r"/api/*": {"origins": "*"}})
