@@ -1,16 +1,17 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, current_app, g
 from app.config import Config
 import mysql.connector
 import hashlib
-import jwt
-import datetime
-from functools import wraps
+from flask_jwt_extended import (
+    jwt_required, get_jwt_identity, create_access_token, 
+    create_refresh_token, get_jwt
+)
+from app.middleware.auth import (
+    login_required, get_current_user, get_current_user_permissions,
+    admin_required, require_permission
+)
 
 user_bp = Blueprint('user', __name__)
-
-# Secret key cho JWT (nên đặt trong config hoặc env)
-JWT_SECRET = 'mta-jwt'
-JWT_ALGORITHM = 'HS256'
 
 def generate_password_hash(password):
     """Tạo hash password đơn giản"""
@@ -19,27 +20,6 @@ def generate_password_hash(password):
 def verify_password_hash(password, password_hash):
     """Kiểm tra password với hash"""
     return hashlib.sha256(password.encode()).hexdigest() == password_hash
-
-def generate_token(user_data):
-    """Tạo JWT token"""
-    payload = {
-        'user_id': user_data['id'],
-        'username': user_data['username'],
-        'role_id': user_data['role_id'],
-        'role_name': user_data['role_name'],
-        'exp': datetime.datetime.utcnow() + datetime.timedelta(days=1)
-    }
-    return jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALGORITHM)
-
-def verify_token(token):
-    """Xác thực JWT token"""
-    try:
-        payload = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
-        return payload
-    except jwt.ExpiredSignatureError:
-        return None
-    except jwt.InvalidTokenError:
-        return None
 
 @user_bp.route('/login', methods=['POST'])
 def login():
@@ -64,8 +44,17 @@ def login():
         if not result:
             return jsonify({"error": "Invalid username or password"}), 401
 
-        # Tạo JWT token
-        token = generate_token(result)
+        # Tạo JWT tokens
+        access_token = create_access_token(
+            identity=result['id'],
+            additional_claims={
+                'username': result['username'],
+                'role_id': result.get('role_id'),
+                'role_name': result.get('role_name')
+            }
+        )
+        
+        refresh_token = create_refresh_token(identity=result['id'])
 
         # Parse permissions string thành array
         permissions = []
@@ -73,7 +62,8 @@ def login():
             permissions = result['permissions'].split(',')
 
         response_data = {
-            "token": token,
+            "token": access_token,
+            "refresh_token": refresh_token,
             "user": {
                 "id": result['id'],
                 "username": result['username'],
@@ -82,7 +72,8 @@ def login():
                 "role_name": result.get('role_name'),
                 "role_description": result.get('role_description'),
                 "status": result['status'],
-                "permissions": permissions
+                "permissions": permissions,
+                "created_at": result.get('created_at')
             }
         }
 
@@ -97,52 +88,115 @@ def login():
         if connection and connection.is_connected():
             connection.close()
 
-@user_bp.route('/profile', methods=['GET'])
-def get_profile():
-    """Lấy thông tin profile của user hiện tại"""
+@user_bp.route('/refresh', methods=['POST'])
+@jwt_required(refresh=True)
+def refresh():
+    """Refresh access token"""
     try:
-        # Lấy token từ header
-        auth_header = request.headers.get('Authorization')
-        if not auth_header or not auth_header.startswith('Bearer '):
-            return jsonify({"error": "Missing or invalid authorization header"}), 401
-
-        token = auth_header.split(' ')[1]
-        payload = verify_token(token)
-        if not payload:
-            return jsonify({"error": "Invalid or expired token"}), 401
-
-        user_id = payload['user_id']
-
+        current_user_id = get_jwt_identity()
+        
+        # Kiểm tra user vẫn còn active
         connection = mysql.connector.connect(**Config.DB_CONFIG)
         cursor = connection.cursor(dictionary=True)
 
-        # Lấy thông tin user
         cursor.execute("""
-            SELECT u.id, u.username, u.email, u.full_name, u.status,
-                   r.name as role_name, r.description as role_description
+            SELECT u.id, u.username, u.status,
+                   r.id as role_id, r.name as role_name
             FROM users u
             LEFT JOIN roles r ON u.role_id = r.id
             WHERE u.id = %s
-        """, (user_id,))
+        """, (current_user_id,))
 
         user = cursor.fetchone()
+        if not user or user['status'] != 'active':
+            return jsonify({"error": "User not found or inactive"}), 401
+
+        # Tạo access token mới
+        new_access_token = create_access_token(
+            identity=current_user_id,
+            additional_claims={
+                'username': user['username'],
+                'role_id': user.get('role_id'),
+                'role_name': user.get('role_name')
+            }
+        )
+
+        return jsonify({"access_token": new_access_token}), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+    finally:
+        if cursor:
+            cursor.close()
+        if connection and connection.is_connected():
+            connection.close()
+
+@user_bp.route('/logout', methods=['POST'])
+@jwt_required()
+def logout():
+    """Logout user by blacklisting the token"""
+    try:
+        jti = get_jwt()['jti']
+        current_app.blacklisted_tokens.add(jti)
+        return jsonify({"message": "Successfully logged out"}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@user_bp.route('/profile', methods=['GET'])
+@login_required
+def get_profile():
+    """Lấy thông tin profile của user hiện tại"""
+    try:
+        user = get_current_user()
         if not user:
             return jsonify({"error": "User not found"}), 404
 
         # Lấy permissions
-        cursor.execute("""
-            SELECT p.name
-            FROM users u
-            JOIN roles r ON u.role_id = r.id
-            JOIN role_permissions rp ON r.id = rp.role_id
-            JOIN permissions p ON rp.permission_id = p.id
-            WHERE u.id = %s
-        """, (user_id,))
-
-        permissions = [row['name'] for row in cursor.fetchall()]
+        permissions = get_current_user_permissions()
         user['permissions'] = permissions
 
         return jsonify(user), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@user_bp.route('/profile', methods=['PUT'])
+@login_required
+def update_profile():
+    """Cập nhật thông tin profile của user hiện tại"""
+    try:
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "Missing data"}), 400
+
+        current_user = get_current_user()
+        user_id = current_user['id']
+
+        connection = mysql.connector.connect(**Config.DB_CONFIG)
+        cursor = connection.cursor()
+
+        # Tạo câu query động cho các field được phép update
+        update_fields = []
+        params = []
+        
+        allowed_fields = ['email', 'full_name']
+        
+        for field in allowed_fields:
+            if field in data:
+                update_fields.append(f"{field} = %s")
+                params.append(data[field])
+
+        if not update_fields:
+            return jsonify({"error": "No valid fields to update"}), 400
+
+        params.append(user_id)
+        query = f"UPDATE users SET {', '.join(update_fields)} WHERE id = %s"
+        
+        cursor.execute(query, params)
+        connection.commit()
+
+        return jsonify({"message": "Profile updated successfully"}), 200
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -154,6 +208,7 @@ def get_profile():
             connection.close()
 
 @user_bp.route('/check-permission', methods=['POST'])
+@login_required
 def check_permission():
     """Kiểm tra quyền của user"""
     try:
@@ -161,18 +216,9 @@ def check_permission():
         if not data or 'permission' not in data:
             return jsonify({"error": "Missing permission parameter"}), 400
 
-        # Lấy token từ header
-        auth_header = request.headers.get('Authorization')
-        if not auth_header or not auth_header.startswith('Bearer '):
-            return jsonify({"error": "Missing or invalid authorization header"}), 401
-
-        token = auth_header.split(' ')[1]
-        payload = verify_token(token)
-        if not payload:
-            return jsonify({"error": "Invalid or expired token"}), 401
-
-        user_id = payload['user_id']
         permission_name = data['permission']
+        current_user = get_current_user()
+        user_id = current_user['id']
 
         connection = mysql.connector.connect(**Config.DB_CONFIG)
         cursor = connection.cursor(dictionary=True)
@@ -197,6 +243,7 @@ def check_permission():
             connection.close()
 
 @user_bp.route('/all', methods=['GET'])
+@require_permission('system.admin')
 def get_all_users():
     """Lấy danh sách tất cả users (chỉ admin)"""
     try:
@@ -224,6 +271,7 @@ def get_all_users():
             connection.close()
 
 @user_bp.route('/create', methods=['POST'])
+@require_permission('system.admin')
 def create_user():
     """Tạo user mới (chỉ admin)"""
     try:
@@ -264,6 +312,7 @@ def create_user():
             connection.close()
 
 @user_bp.route('/update-role/<int:user_id>', methods=['PUT'])
+@require_permission('system.admin')
 def update_user_role(user_id):
     """Cập nhật role của user (chỉ admin)"""
     try:
@@ -294,6 +343,7 @@ def update_user_role(user_id):
             connection.close()
 
 @user_bp.route('/change-password', methods=['PUT'])
+@login_required
 def change_password():
     """Đổi mật khẩu"""
     try:
@@ -301,17 +351,8 @@ def change_password():
         if not data or 'old_password' not in data or 'new_password' not in data:
             return jsonify({"error": "Missing old_password or new_password"}), 400
 
-        # Lấy token từ header
-        auth_header = request.headers.get('Authorization')
-        if not auth_header or not auth_header.startswith('Bearer '):
-            return jsonify({"error": "Missing or invalid authorization header"}), 401
-
-        token = auth_header.split(' ')[1]
-        payload = verify_token(token)
-        if not payload:
-            return jsonify({"error": "Invalid or expired token"}), 401
-
-        user_id = payload['user_id']
+        current_user = get_current_user()
+        user_id = current_user['id']
         old_password = generate_password_hash(data['old_password'])
         new_password = generate_password_hash(data['new_password'])
 
@@ -330,6 +371,56 @@ def change_password():
         connection.commit()
 
         return jsonify({"message": "Password changed successfully"}), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+    finally:
+        if cursor:
+            cursor.close()
+        if connection and connection.is_connected():
+            connection.close()
+
+@user_bp.route('/deactivate/<int:user_id>', methods=['PUT'])
+@require_permission('system.admin')
+def deactivate_user(user_id):
+    """Vô hiệu hóa user (chỉ admin)"""
+    try:
+        connection = mysql.connector.connect(**Config.DB_CONFIG)
+        cursor = connection.cursor()
+
+        cursor.execute("UPDATE users SET status = 'inactive' WHERE id = %s", (user_id,))
+        
+        if cursor.rowcount == 0:
+            return jsonify({"error": "User not found"}), 404
+
+        connection.commit()
+        return jsonify({"message": "User deactivated successfully"}), 200
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+    finally:
+        if cursor:
+            cursor.close()
+        if connection and connection.is_connected():
+            connection.close()
+
+@user_bp.route('/activate/<int:user_id>', methods=['PUT'])
+@require_permission('system.admin')
+def activate_user(user_id):
+    """Kích hoạt user (chỉ admin)"""
+    try:
+        connection = mysql.connector.connect(**Config.DB_CONFIG)
+        cursor = connection.cursor()
+
+        cursor.execute("UPDATE users SET status = 'active' WHERE id = %s", (user_id,))
+        
+        if cursor.rowcount == 0:
+            return jsonify({"error": "User not found"}), 404
+
+        connection.commit()
+        return jsonify({"message": "User activated successfully"}), 200
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500

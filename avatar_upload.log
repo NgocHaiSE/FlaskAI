@@ -5197,3 +5197,171 @@
 2025-06-10 00:31:22,105 [INFO] 127.0.0.1 - - [10/Jun/2025 00:31:22] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
 2025-06-10 00:32:21,848 [INFO] 127.0.0.1 - - [10/Jun/2025 00:32:21] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
 2025-06-10 00:32:22,122 [INFO] 127.0.0.1 - - [10/Jun/2025 00:32:22] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:00:21,450 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:00:21,665 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-06-10 01:00:21,666 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-10 01:00:21,669 [INFO]  * Restarting with stat
+2025-06-10 01:00:22,919 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:00:23,047 [WARNING]  * Debugger is active!
+2025-06-10 01:00:23,062 [INFO]  * Debugger PIN: 117-129-247
+2025-06-10 01:00:43,474 [INFO] 127.0.0.1 - - [10/Jun/2025 01:00:43] "OPTIONS /api/user/profile HTTP/1.1" 200 -
+2025-06-10 01:00:43,476 [INFO] 127.0.0.1 - - [10/Jun/2025 01:00:43] "OPTIONS /api/user/profile HTTP/1.1" 200 -
+2025-06-10 01:00:43,720 [INFO] 127.0.0.1 - - [10/Jun/2025 01:00:43] "[31m[1mGET /api/user/profile HTTP/1.1[0m" 401 -
+2025-06-10 01:00:43,783 [INFO] 127.0.0.1 - - [10/Jun/2025 01:00:43] "[31m[1mGET /api/user/profile HTTP/1.1[0m" 401 -
+2025-06-10 01:00:49,670 [INFO] 127.0.0.1 - - [10/Jun/2025 01:00:49] "OPTIONS /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:00:50,060 [INFO] package: mysql.connector.plugins
+2025-06-10 01:00:50,060 [INFO] plugin_name: caching_sha2_password
+2025-06-10 01:00:50,061 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-10 01:00:50,103 [INFO] 127.0.0.1 - - [10/Jun/2025 01:00:50] "POST /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:01:02,962 [INFO] 127.0.0.1 - - [10/Jun/2025 01:01:02] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:01:02,964 [INFO] 127.0.0.1 - - [10/Jun/2025 01:01:02] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:01:03,214 [INFO] 127.0.0.1 - - [10/Jun/2025 01:01:03] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:01:03,276 [INFO] 127.0.0.1 - - [10/Jun/2025 01:01:03] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:01:06,548 [INFO] 127.0.0.1 - - [10/Jun/2025 01:01:06] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:01:06,866 [INFO] 127.0.0.1 - - [10/Jun/2025 01:01:06] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:01:08,136 [INFO] 127.0.0.1 - - [10/Jun/2025 01:01:08] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-08&end=2025-06-14 HTTP/1.1[0m" 401 -
+2025-06-10 01:02:21,971 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\__init__.py', reloading
+2025-06-10 01:02:22,191 [INFO]  * Restarting with stat
+2025-06-10 01:02:23,855 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:02:23,968 [WARNING]  * Debugger is active!
+2025-06-10 01:02:23,980 [INFO]  * Debugger PIN: 117-129-247
+2025-06-10 01:02:50,942 [INFO] 127.0.0.1 - - [10/Jun/2025 01:02:50] "OPTIONS /api/user/profile HTTP/1.1" 200 -
+2025-06-10 01:02:50,945 [INFO] 127.0.0.1 - - [10/Jun/2025 01:02:50] "OPTIONS /api/user/profile HTTP/1.1" 200 -
+2025-06-10 01:02:51,190 [INFO] 127.0.0.1 - - [10/Jun/2025 01:02:51] "[31m[1mGET /api/user/profile HTTP/1.1[0m" 401 -
+2025-06-10 01:02:51,250 [INFO] 127.0.0.1 - - [10/Jun/2025 01:02:51] "[31m[1mGET /api/user/profile HTTP/1.1[0m" 401 -
+2025-06-10 01:02:51,501 [INFO] 127.0.0.1 - - [10/Jun/2025 01:02:51] "OPTIONS /api/user/refresh HTTP/1.1" 200 -
+2025-06-10 01:02:51,506 [INFO] 127.0.0.1 - - [10/Jun/2025 01:02:51] "[31m[1mPOST /api/user/refresh HTTP/1.1[0m" 401 -
+2025-06-10 01:03:12,101 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:12] "OPTIONS /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:03:12,462 [INFO] package: mysql.connector.plugins
+2025-06-10 01:03:12,463 [INFO] plugin_name: caching_sha2_password
+2025-06-10 01:03:12,463 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-10 01:03:12,492 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:12] "POST /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:03:15,400 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:15] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:03:15,708 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:15] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:03:15,710 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:15] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:03:16,016 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:16] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:03:16,586 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:16] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:03:16,908 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:16] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:03:21,376 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:21] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:03:21,379 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:21] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:03:21,640 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:21] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:03:21,688 [INFO] 127.0.0.1 - - [10/Jun/2025 01:03:21] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:04:21,854 [INFO] 127.0.0.1 - - [10/Jun/2025 01:04:21] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:04:22,120 [INFO] 127.0.0.1 - - [10/Jun/2025 01:04:22] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:05:21,849 [INFO] 127.0.0.1 - - [10/Jun/2025 01:05:21] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:05:22,115 [INFO] 127.0.0.1 - - [10/Jun/2025 01:05:22] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:06:21,850 [INFO] 127.0.0.1 - - [10/Jun/2025 01:06:21] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:06:22,103 [INFO] 127.0.0.1 - - [10/Jun/2025 01:06:22] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:07:21,855 [INFO] 127.0.0.1 - - [10/Jun/2025 01:07:21] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:07:22,116 [INFO] 127.0.0.1 - - [10/Jun/2025 01:07:22] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:08:28,842 [INFO] 127.0.0.1 - - [10/Jun/2025 01:08:28] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:08:29,107 [INFO] 127.0.0.1 - - [10/Jun/2025 01:08:29] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:09:10,708 [INFO] 127.0.0.1 - - [10/Jun/2025 01:09:10] "OPTIONS /api/user/logout HTTP/1.1" 200 -
+2025-06-10 01:09:10,977 [INFO] 127.0.0.1 - - [10/Jun/2025 01:09:10] "[31m[1mPOST /api/user/logout HTTP/1.1[0m" 401 -
+2025-06-10 01:09:11,018 [INFO] 127.0.0.1 - - [10/Jun/2025 01:09:11] "OPTIONS /api/user/refresh HTTP/1.1" 200 -
+2025-06-10 01:09:11,299 [INFO] 127.0.0.1 - - [10/Jun/2025 01:09:11] "[31m[1mPOST /api/user/refresh HTTP/1.1[0m" 401 -
+2025-06-10 01:18:18,398 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\__init__.py', reloading
+2025-06-10 01:18:19,079 [INFO]  * Restarting with stat
+2025-06-10 01:18:21,056 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:18:21,173 [WARNING]  * Debugger is active!
+2025-06-10 01:18:21,187 [INFO]  * Debugger PIN: 117-129-247
+2025-06-10 01:18:29,834 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:18:29,914 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.244:5000
+2025-06-10 01:18:29,914 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-10 01:18:29,916 [INFO]  * Restarting with stat
+2025-06-10 01:18:31,029 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:18:31,084 [WARNING]  * Debugger is active!
+2025-06-10 01:18:31,093 [INFO]  * Debugger PIN: 117-129-247
+2025-06-10 01:18:53,433 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\__init__.py', reloading
+2025-06-10 01:18:53,565 [INFO]  * Restarting with stat
+2025-06-10 01:18:54,879 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:18:54,940 [WARNING]  * Debugger is active!
+2025-06-10 01:18:54,949 [INFO]  * Debugger PIN: 117-129-247
+2025-06-10 01:19:17,840 [INFO] 127.0.0.1 - - [10/Jun/2025 01:19:17] "OPTIONS /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:19:18,236 [INFO] package: mysql.connector.plugins
+2025-06-10 01:19:18,236 [INFO] plugin_name: caching_sha2_password
+2025-06-10 01:19:18,237 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-10 01:19:18,274 [INFO] 127.0.0.1 - - [10/Jun/2025 01:19:18] "POST /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:19:24,853 [INFO] 127.0.0.1 - - [10/Jun/2025 01:19:24] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:19:25,161 [INFO] 127.0.0.1 - - [10/Jun/2025 01:19:25] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:26:50,039 [INFO]  * Detected change in 'D:\\ElectronJS\\FlaskAICore\\app\\__init__.py', reloading
+2025-06-10 01:26:50,451 [INFO]  * Restarting with stat
+2025-06-10 01:26:52,639 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:26:52,791 [WARNING]  * Debugger is active!
+2025-06-10 01:26:52,811 [INFO]  * Debugger PIN: 117-129-247
+2025-06-10 01:29:27,405 [INFO] 127.0.0.1 - - [10/Jun/2025 01:29:27] "OPTIONS /api/user/profile HTTP/1.1" 200 -
+2025-06-10 01:29:27,412 [INFO] 127.0.0.1 - - [10/Jun/2025 01:29:27] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:29:27,466 [INFO] 127.0.0.1 - - [10/Jun/2025 01:29:27] "[31m[1mGET /api/user/profile HTTP/1.1[0m" 401 -
+2025-06-10 01:29:27,745 [INFO] 127.0.0.1 - - [10/Jun/2025 01:29:27] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:29:27,803 [INFO] 127.0.0.1 - - [10/Jun/2025 01:29:27] "OPTIONS /api/user/refresh HTTP/1.1" 200 -
+2025-06-10 01:29:28,121 [INFO] 127.0.0.1 - - [10/Jun/2025 01:29:28] "[31m[1mPOST /api/user/refresh HTTP/1.1[0m" 401 -
+2025-06-10 01:30:47,548 [INFO] 127.0.0.1 - - [10/Jun/2025 01:30:47] "OPTIONS /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:30:48,012 [INFO] package: mysql.connector.plugins
+2025-06-10 01:30:48,013 [INFO] plugin_name: caching_sha2_password
+2025-06-10 01:30:48,014 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-10 01:30:48,070 [INFO] 127.0.0.1 - - [10/Jun/2025 01:30:48] "POST /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:30:50,296 [INFO] 127.0.0.1 - - [10/Jun/2025 01:30:50] "OPTIONS /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1" 200 -
+2025-06-10 01:30:50,298 [INFO] 127.0.0.1 - - [10/Jun/2025 01:30:50] "OPTIONS /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1" 200 -
+2025-06-10 01:30:50,566 [INFO] 127.0.0.1 - - [10/Jun/2025 01:30:50] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:30:50,608 [INFO] 127.0.0.1 - - [10/Jun/2025 01:30:50] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:30:50,871 [INFO] 127.0.0.1 - - [10/Jun/2025 01:30:50] "OPTIONS /api/user/refresh HTTP/1.1" 200 -
+2025-06-10 01:30:50,876 [INFO] 127.0.0.1 - - [10/Jun/2025 01:30:50] "[31m[1mPOST /api/user/refresh HTTP/1.1[0m" 401 -
+2025-06-10 01:31:06,530 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:06] "OPTIONS /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:31:06,865 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:06] "POST /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:31:08,949 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:08] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:31:09,263 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:09] "OPTIONS /api/timekeeping/attendance/2025-06-10 HTTP/1.1" 200 -
+2025-06-10 01:31:09,266 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:09] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:31:09,576 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:09] "[31m[1mGET /api/timekeeping/attendance/2025-06-10 HTTP/1.1[0m" 401 -
+2025-06-10 01:31:13,368 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:13] "OPTIONS /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1" 200 -
+2025-06-10 01:31:13,679 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:13] "OPTIONS /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1" 200 -
+2025-06-10 01:31:13,681 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:13] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:31:13,946 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:13] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:31:13,996 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:13] "OPTIONS /api/user/refresh HTTP/1.1" 200 -
+2025-06-10 01:31:14,002 [INFO] 127.0.0.1 - - [10/Jun/2025 01:31:14] "[31m[1mPOST /api/user/refresh HTTP/1.1[0m" 401 -
+2025-06-10 01:31:29,135 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:31:29,295 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.211.138:5000
+2025-06-10 01:31:29,295 [INFO] [33mPress CTRL+C to quit[0m
+2025-06-10 01:31:29,299 [INFO]  * Restarting with stat
+2025-06-10 01:31:30,376 [INFO] Initialized face detector and recognizer models
+2025-06-10 01:31:30,437 [WARNING]  * Debugger is active!
+2025-06-10 01:31:30,458 [INFO]  * Debugger PIN: 117-129-247
+2025-06-10 01:32:10,058 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:10] "OPTIONS /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:32:10,497 [INFO] package: mysql.connector.plugins
+2025-06-10 01:32:10,497 [INFO] plugin_name: caching_sha2_password
+2025-06-10 01:32:10,497 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-06-10 01:32:10,582 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:10] "POST /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:32:12,373 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:12] "OPTIONS /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1" 200 -
+2025-06-10 01:32:12,683 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:12] "OPTIONS /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1" 200 -
+2025-06-10 01:32:12,688 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:12] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:32:13,015 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:13] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:32:13,017 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:13] "OPTIONS /api/user/refresh HTTP/1.1" 200 -
+2025-06-10 01:32:13,272 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:13] "[31m[1mPOST /api/user/refresh HTTP/1.1[0m" 401 -
+2025-06-10 01:32:59,483 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:59] "OPTIONS /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:32:59,998 [INFO] 127.0.0.1 - - [10/Jun/2025 01:32:59] "POST /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:33:02,210 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:02] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:33:02,529 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:02] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:33:04,507 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:04] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-08&end=2025-06-14 HTTP/1.1[0m" 401 -
+2025-06-10 01:33:05,036 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:05] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-07 HTTP/1.1[0m" 401 -
+2025-06-10 01:33:29,897 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:29] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:33:29,905 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:29] "OPTIONS /api/user/profile HTTP/1.1" 200 -
+2025-06-10 01:33:30,157 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:30] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:33:30,221 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:30] "[31m[1mGET /api/user/profile HTTP/1.1[0m" 401 -
+2025-06-10 01:33:30,230 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:30] "OPTIONS /api/user/refresh HTTP/1.1" 200 -
+2025-06-10 01:33:30,555 [INFO] 127.0.0.1 - - [10/Jun/2025 01:33:30] "[31m[1mPOST /api/user/refresh HTTP/1.1[0m" 401 -
+2025-06-10 01:34:45,304 [INFO] 127.0.0.1 - - [10/Jun/2025 01:34:45] "OPTIONS /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:34:45,569 [INFO] 127.0.0.1 - - [10/Jun/2025 01:34:45] "POST /api/user/login HTTP/1.1" 200 -
+2025-06-10 01:34:47,862 [INFO] 127.0.0.1 - - [10/Jun/2025 01:34:47] "OPTIONS /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1" 200 -
+2025-06-10 01:34:48,168 [INFO] 127.0.0.1 - - [10/Jun/2025 01:34:48] "OPTIONS /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1" 200 -
+2025-06-10 01:34:48,170 [INFO] 127.0.0.1 - - [10/Jun/2025 01:34:48] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:34:48,482 [INFO] 127.0.0.1 - - [10/Jun/2025 01:34:48] "[31m[1mGET /api/timekeeping/attendance/stats?start=2025-06-01&end=2025-06-30 HTTP/1.1[0m" 401 -
+2025-06-10 01:34:48,483 [INFO] 127.0.0.1 - - [10/Jun/2025 01:34:48] "OPTIONS /api/user/refresh HTTP/1.1" 200 -
+2025-06-10 01:34:48,746 [INFO] 127.0.0.1 - - [10/Jun/2025 01:34:48] "[31m[1mPOST /api/user/refresh HTTP/1.1[0m" 401 -

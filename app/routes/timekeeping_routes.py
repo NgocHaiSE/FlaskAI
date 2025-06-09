@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, g
 from app.services.timekeeping_services import checkin_logic, checkout_logic, get_all, get_attendance_by_date, get_attendance_by_person_and_range, get_realtime_attendance
 from app.middleware.auth import require_permission, require_any_permission, login_required, has_permission
 import mysql.connector
@@ -28,7 +28,6 @@ def get_person_attendance_by_range(person_id):
     """Lấy chấm công theo người và khoảng thời gian"""
     # Kiểm tra quyền: user có thể xem chấm công của chính mình, 
     # hoặc cần quyền timekeeping.view để xem của người khác
-    from flask import g
     
     current_user_id = g.current_user['id']
     can_view_all = has_permission('timekeeping.view')
@@ -184,7 +183,6 @@ def get_attendance_stats():
 def get_personal_stats(person_id):
     """Lấy thống kê chấm công cá nhân"""
     # Kiểm tra quyền tương tự như get_person_attendance_by_range
-    from flask import g
     
     current_user_id = g.current_user['id']
     can_view_all = has_permission('timekeeping.view')
